@@ -136,4 +136,5 @@ Overall, AI Music System is an accessible and engaging example of applying AI te
 
 # Thank you!!!
 
-**Suggestion and Contributions are always welcome!** Please fork the repository and create a pull request with your changes.
+**Suggestion and Contributions are always welcome!**
+Please fork the repository and create a pull request with your changes.
