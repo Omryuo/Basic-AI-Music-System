@@ -115,13 +115,15 @@ This will open the web interface in your default browser.
 Although the project uses rule-based methods rather than advanced deep learning models, it employs key AI concepts:
 
 - **Algorithmic Composition:**
-  Automatically generates melodies using randomized algorithms within musical constraints.
-
+  The system generates unique melodies by randomly selecting notes from a chosen musical scale (such as C Major or A Minor). It further enriches the creative process by randomly picking from a variety of General MIDI instruments. The melodies are initially created as MIDI files using the PrettyMIDI library and are then converted into WAV files with FluidSynth (via the midi2audio package), allowing them to be played and previewed.
+  
 - **Digital Signal Processing (DSP) for Feature Extraction:**
-  Extracts audio features to analyze and classify the mood of audio files.
-
+  The project leverages the Librosa library to extract critical audio features—such as tempo, spectral centroid, spectral bandwidth, spectral rolloff, zero crossing rate, and RMS energy—from audio files. These features are used in a rule-based classifier that compares them against predefined thresholds to categorize the mood of a song as "Energetic," "Calm," or "Neutral." This approach illustrates how digital signal processing can mimic aspects of human auditory perception and decision-making.
+  
 - **Automated Decision-Making:**
-  Uses a rule-based classifier to interpret audio data and determine the mood, mimicking human auditory perception.
+  The entire system is wrapped in an intuitive Streamlit web application. Users can generate new melodies by adjusting parameters like tempo, melody length, and scale, and then preview the results instantly. Additionally, users can upload any audio file (MP3/WAV) to analyze its mood, with the app providing a detailed breakdown of the extracted audio features and the criteria used for classification.
+
+Overall, AI Music System is an accessible and engaging example of applying AI techniques to the creative domain of music. It showcases how algorithmic methods and DSP can be harnessed to automate both the composition of music and the interpretation of its emotional content.
 
 ## Acknowledgements:
 - Librosa for audio analysis.
