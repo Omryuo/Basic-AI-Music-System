@@ -53,7 +53,7 @@ This Python-based project mainly combines algorithmic music generation with audi
   brew install fluid-synth
 
 ### SoundFont :
-Download the FluidR3_GM.sf2 file and place it in a known directory. **Update** the SOUND_FONT path in music_generator.py accordingly.
+Download the FluidR3_GM.sf2 file from the internet and place it in a known directory. **Update** the SOUND_FONT path in music_generator.py accordingly.
 
 ## Installation :
 
