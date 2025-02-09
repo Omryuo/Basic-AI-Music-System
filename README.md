@@ -53,7 +53,7 @@ This Python-based project mainly combines algorithmic music generation with audi
   brew install fluid-synth
 
 ### SoundFont :
-Download the FluidR3_GM.sf2 file from the internet and place it in a known directory. **Update** the SOUND_FONT path in music_generator.py accordingly.
+Download the FluidR3_GM.sf2 file from the internet and place it in a known directory. **Update** the SOUND_FONT path in music_generator.py accordingly. This helps in previewing of the generated melody in the interface.
 
 ## Installation :
 
@@ -105,11 +105,14 @@ This will open the web interface in your default browser.
 - Navigate to the "Generate Melody" section.
 - Adjust parameters such as tempo, melody length, and scale.
 - Click "Generate Melody" to create and preview the generated melody along with the selected instrument.
+- The generated melody can be previewed in the same page and it is also saved in the generated folder.
 
 ### **Detect Mood:**
 - Navigate to the "Mood Detection" section.
 - Upload an audio file (MP3/WAV) to analyze its mood.
 - View detailed audio feature analysis and criteria comparisons.
+
+**Note:** refer the "screenshots of the project.pdf" it contains the images of the project interface. 
 
 ## How it uses AI :
 Although the project uses rule-based methods rather than advanced deep learning models, it employs key AI concepts:
@@ -131,5 +134,6 @@ Overall, AI Music System is an accessible and engaging example of applying AI te
 - Streamlit for the interactive web interface.
 - midi2audio for MIDI-to-WAV conversion.
 
-## Contributions :
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+# Thank you!!!
+
+**Suggestion and Contributions are always welcome!** Please fork the repository and create a pull request with your changes.
