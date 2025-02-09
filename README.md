@@ -74,7 +74,7 @@ Download the FluidR3_GM.sf2 file from the internet and place it in a known direc
   </code>
 </pre>
 
-Or you can also use the Conda environments with the following code :
+**Or** you can also use the Conda environments with the following code :
 <pre>
   <code>
     conda create -n ai_music_env_py311 python=3.11
