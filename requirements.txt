@@ -1,0 +1,16 @@
+# Core music processing
+pretty_midi==0.2.9
+librosa==0.10.1  # Updated for better M1 support
+midi2audio==0.1.1
+
+# Data processing and analysis
+numpy==1.24.3  # Updated for M1 optimization
+scipy==1.10.1  # Updated for M1 optimization
+pandas==2.0.3  # M1-optimized version
+
+# Web interface
+streamlit==1.25.0
+plotly==5.18.0
+
+# Optional: Type hints support
+typing-extensions==4.7.1
