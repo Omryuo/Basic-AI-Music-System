@@ -6,7 +6,7 @@ import random
 from midi2audio import FluidSynth
 
 # Set your soundfont path here.
-SOUND_FONT = "/Users/mac/Documents/Computer Science/PCL/AI_Music_System/FluidR3_GM/FluidR3_GM.sf2"  
+SOUND_FONT = "file_path"  
 
 if not os.path.exists(SOUND_FONT):
     print(f"Warning: SoundFont not found at {SOUND_FONT}. Please update the SOUND_FONT variable with the correct path.")
