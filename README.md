@@ -1,6 +1,8 @@
 # Basic-AI-Music-System
 Basic AI Music System: A Python project that blends algorithmic music composition with audio mood detection. It generates unique melodies and uses digital signal processing to analyze audio moods—all within an interactive Streamlit web interface.
 
+**Note**: This project is not deployed version and runs locally.
+
 This Python-based project mainly combines algorithmic music generation with audio mood detection. The system generates unique melodies using algorithmic composition techniques and then analyzes the mood of audio files using digital signal processing (DSP) and rule-based classification.
 
 ## Features
